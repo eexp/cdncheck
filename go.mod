@@ -1,4 +1,4 @@
-module github.com/projectdiscovery/cdncheck
+module github.com/eexp/cdncheck_cn
 
 go 1.19
 
