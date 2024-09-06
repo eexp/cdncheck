@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/eexp/cdncheck_cn"
 	"github.com/logrusorgru/aurora"
-	"github.com/projectdiscovery/cdncheck"
 	"github.com/projectdiscovery/goflags"
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/gologger/formatter"

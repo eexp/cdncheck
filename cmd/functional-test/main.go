@@ -7,9 +7,9 @@ import (
 	"os"
 	"strings"
 
+	"github.com/eexp/cdncheck_cn/internal/testutils"
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
-	"github.com/projectdiscovery/cdncheck/internal/testutils"
 )
 
 var (
