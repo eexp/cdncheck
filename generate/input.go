@@ -10,7 +10,7 @@ import (
 	"regexp"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/eexp/cdncheck_cn"
+	"github.com/eexp/cdncheck"
 	"github.com/ipinfo/go/v2/ipinfo"
 	stringsutil "github.com/projectdiscovery/utils/strings"
 )

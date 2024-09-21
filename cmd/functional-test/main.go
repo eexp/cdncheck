@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/eexp/cdncheck_cn/internal/testutils"
+	"github.com/eexp/cdncheck/internal/testutils"
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
 )

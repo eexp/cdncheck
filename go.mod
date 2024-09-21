@@ -1,4 +1,4 @@
-module github.com/eexp/cdncheck_cn
+module github.com/eexp/cdncheck
 
 go 1.21
 

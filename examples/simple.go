@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/eexp/cdncheck_cn"
+	"github.com/eexp/cdncheck"
 )
 
 func main() {

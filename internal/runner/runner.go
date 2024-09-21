@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/eexp/cdncheck_cn"
+	"github.com/eexp/cdncheck"
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
@@ -199,6 +199,7 @@ func (r *Runner) processInputItemSingle(item string, output chan Output) {
 
 	if iputils.IsIP(item) {
 		targetIP := net.ParseIP(item)
+		println(targetIP.String())
 		matched, provider, itemType, err = r.cdnclient.Check(targetIP)
 	} else {
 		matched, provider, itemType, err = r.cdnclient.CheckDomainWithFallback(item)

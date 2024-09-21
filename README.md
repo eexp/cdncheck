@@ -8,7 +8,7 @@
 
 方便修改 naabu cdn 模块
 ```
-go get -u "github.com/eexp/cdncheck_cn"
+go get -u "github.com/eexp/cdncheck"
 全局替换
 github.com/projectdiscovery/cdncheck
 ```

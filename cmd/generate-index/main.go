@@ -7,8 +7,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/eexp/cdncheck_cn"
-	"github.com/eexp/cdncheck_cn/generate"
+	"github.com/eexp/cdncheck"
+	"github.com/eexp/cdncheck/generate"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v3"
 )

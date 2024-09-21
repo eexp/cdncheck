@@ -16,12 +16,12 @@ var (
 
 // DefaultResolvers trusted (taken from fastdialer)
 var DefaultResolvers = []string{
+	"114.114.114.114:53",
 	"180.76.76.76:53",
 	"112.124.47.27:53",
-	"114.114.114.114:53",
-	"1.1.1.1:53",
 	"223.5.5.5:53",
 	"223.6.6.6:53",
+	"1.1.1.1:53",
 	"1.0.0.1:53",
 	"8.8.8.8:53",
 	"8.8.4.4:53",
@@ -127,6 +127,7 @@ func (c *Client) CheckDNSResponse(dnsResponse *retryabledns.DNSData) (matched bo
 			if ipAddr == nil {
 				continue
 			}
+			println(ipAddr.String())
 			matched, value, itemType, err := c.Check(ipAddr)
 			if err != nil {
 				return false, "", "", err
